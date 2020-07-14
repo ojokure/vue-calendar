@@ -1,19 +1,18 @@
 <template>
   <v-app>
     <v-content>
-      <HelloWorld />
+      <Calendar />
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import Calendar from "./components/Calender";
 
 export default {
   name: "App",
-
   components: {
-    HelloWorld
+    Calendar
   },
 
   data: () => ({
